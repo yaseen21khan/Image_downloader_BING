@@ -1,0 +1,6 @@
+#Bing
+from bing_image_downloader import downloader
+downloader.download("Before and after", limit=200,  output_dir='dataset', 
+                    adult_filter_off=False, force_replace=False, timeout=60)
+downloader.download("hiking trails", limit=00,  output_dir='dataset', 
+                    adult_filter_off=False, force_replace=False, timeout=60)
